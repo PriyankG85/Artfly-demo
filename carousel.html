@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    ._1 {
+        padding-top: 36%;
+        padding-bottom: 6%;
+    }
+
+    ._2 {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+    .sec1,
+    .sec2 {
+        margin: 0 5%;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        /* overflow-x: hidden; */
+    }
+
+    .canvas img,
+    .pencile img,
+    .customize img {
+        width: 160px;
+    }
+
+
+    .pencile .sec1,
+    .pencile .sec2 {
+        margin: 0 1vw;
+    }
+
+    #main1 {
+        width: min-content;
+        margin: 0 3vw;
+        text-decoration: none;
+        color: #000;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+    }
+
+    #main2 {
+        width: min-content;
+        margin: 0 3vw;
+        text-decoration: none;
+        color: #000;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+    }
+
+    #main5 {
+        width: min-content;
+        margin: 0 3vw;
+        text-decoration: none;
+        color: #000;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+    }
+
+    small {
+        color: #63a007;
+    }
+
+    .canvas hr,
+    .pencile hr,
+    .customize hr {
+        margin-top: 5vh;
+        margin-bottom: 8vh;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <h2>Carousel Example</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <!-- <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol> -->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <span class="item active">
+
+                    <div class="canvas">
+                        <div class="sec2">
+                            <a id="main2" class="small" href="Cosmic painting midnight hearth.html">
+                                <img src="images/read_more/canavas_sec/2/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Cosmic painting midnight hearth</p>
+                                    <small>₹149/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" class="small" href="Cosmic painting Nightfire.html">
+                                <img src="images/read_more/canavas_sec/3/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Cosmic painting Nightfire</p>
+                                    <small>₹149/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" class="small" href="Cosmic painting Nightsky.html">
+                                <img src="images/read_more/canavas_sec/4/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Cosmic painting Nightsky</p>
+                                    <small>₹149/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" class="small" href="Combo of 3 Cosmic paintings.html">
+                                <img src="images/read_more/canavas_sec/5/img5.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Combo of 3 Cosmic paintings</p>
+                                    <small>₹399/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" href="Rajasthani man & woman painting.html">
+                                <img src="images/read_more//canavas_sec/6/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Rajasthani man & woman painting</p>
+                                    <small>₹499/-</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </span>
+
+                <span class="item">
+                    <div class="canvas">
+                        <div class="sec2">
+                            <a id="main2" class="small" href="Cosmic painting midnight hearth.html">
+                                <img src="images/read_more/canavas_sec/2/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Cosmic painting midnight hearth</p>
+                                    <small>₹149/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" class="small" href="Cosmic painting Nightfire.html">
+                                <img src="images/read_more/canavas_sec/3/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Cosmic painting Nightfire</p>
+                                    <small>₹149/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" class="small" href="Cosmic painting Nightsky.html">
+                                <img src="images/read_more/canavas_sec/4/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Cosmic painting Nightsky</p>
+                                    <small>₹149/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" class="small" href="Combo of 3 Cosmic paintings.html">
+                                <img src="images/read_more/canavas_sec/5/img5.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Combo of 3 Cosmic paintings</p>
+                                    <small>₹399/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" href="Rajasthani man & woman painting.html">
+                                <img src="images/read_more//canavas_sec/6/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Rajasthani man & woman painting</p>
+                                    <small>₹499/-</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </span>
+
+                <span class="item">
+                    <div class="canvas">
+                        <div class="sec2">
+                            <a id="main2" class="small" href="Cosmic painting midnight hearth.html">
+                                <img src="images/read_more/canavas_sec/2/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Cosmic painting midnight hearth</p>
+                                    <small>₹149/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" class="small" href="Cosmic painting Nightfire.html">
+                                <img src="images/read_more/canavas_sec/3/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Cosmic painting Nightfire</p>
+                                    <small>₹149/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" class="small" href="Cosmic painting Nightsky.html">
+                                <img src="images/read_more/canavas_sec/4/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Cosmic painting Nightsky</p>
+                                    <small>₹149/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" class="small" href="Combo of 3 Cosmic paintings.html">
+                                <img src="images/read_more/canavas_sec/5/img5.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Combo of 3 Cosmic paintings</p>
+                                    <small>₹399/-</small>
+                                </div>
+                            </a>
+                            <a id="main2" href="Rajasthani man & woman painting.html">
+                                <img src="images/read_more//canavas_sec/6/img1.jpeg" alt="">
+                                <div class="desc">
+                                    <p>Rajasthani man & woman painting</p>
+                                    <small>₹499/-</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </span>
+            </div>
+
+            <!-- Left and right controls -->
+            <a href="#myCarousel" data-slide="prev">
+                <span class="glyphicon left"><img src="images/read_more/back.png"
+                        style="width:5%;"></span>
+            </a>
+            <a href="#myCarousel" data-slide="next">
+                <span class="glyphicon right"><img src="images/read_more/back.png"
+                        style="width:5%;"></span>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
